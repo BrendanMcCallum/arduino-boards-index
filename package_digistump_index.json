@@ -58,6 +58,63 @@
           ]
         },
         {
+         "name":"digistump",
+         "maintainer":"Digistump",
+         "websiteURL":"http://digistump.com",
+         "email":"support@digistump.com",
+         "help":{
+            "online":"https://digistump.com/board"
+         },
+         "platforms":[
+         {
+          "name": "Digistump AVR Boards",
+          "architecture": "avr",
+          "version": "1.6.8",
+          "category": "Digistump",
+          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.8/digistump-avr-1.6.8.zip",
+          "archiveFileName": "digistump-avr-1.6.8.zip",
+          "checksum": "SHA-256:D2E9D0E6EF7685D9E65CA6AF9B241EB5E3CD9E1D60E69EDA323041446E4FD3BF",
+          "size": "2411796",
+          "help": {
+            "online": "https://github.com/BrendanMcCallum/DigistumpArduino/issues"
+          },
+          "boards": [
+            {
+              "name": "Digispark (Default - 16.5mhz)"
+            },
+            {
+              "name": "Digispark Pro (Default 16 Mhz)"
+            },
+            {
+              "name": "Digispark Pro (16 Mhz) (32 byte buffer)"
+            },
+            {
+              "name": "Digispark Pro (16 Mhz) (64 byte buffer)"
+            },
+            {
+              "name": "Digispark (16mhz - No USB)"
+            },
+            {
+              "name": "Digispark (8mhz - No USB)"
+            },
+            {
+              "name": "Digispark (1mhz - No USB)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "digistump",
+              "name": "micronucleus",
+              "version": "2.0a4"
+            }
+          ]
+        },
+        {
           "name": "Digistump SAM Boards (32-bits ARM Cortex-M3)",
           "architecture": "sam",
           "version": "1.6.7",
