@@ -71,7 +71,7 @@
           "architecture": "avr",
           "version": "1.6.8",
           "category": "Digistump",
-          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.8/digistump-avr-1.6.8.zip",
+          "url": "https://github.com/BrendanMcCallum/DigistumpArduino/releases/download/1.6.8/digistump-avr-1.6.8.zip",
           "archiveFileName": "digistump-avr-1.6.8.zip",
           "checksum": "SHA-256:D2E9D0E6EF7685D9E65CA6AF9B241EB5E3CD9E1D60E69EDA323041446E4FD3BF",
           "size": "2411796",
